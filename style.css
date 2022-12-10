@@ -100,6 +100,13 @@ h1 {
     font-family: 'Montserrat';
     width: 100%;
     height: 48px;
+    
+    /* Animate Color Transition when :hover / :active */
+    transition-duration: 0.25s;
+}
+
+.add-to-cart-button:hover, .add-to-cart-button:active {
+    background-color: var(--deep-aquamarine);
 }
 
 .add-to-cart-button div {
