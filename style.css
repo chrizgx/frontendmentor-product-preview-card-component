@@ -106,7 +106,7 @@ h1 {
 }
 
 .add-to-cart-button:hover, .add-to-cart-button:active {
-    background-color: var(--deep-aquamarine);
+    opacity: 0.85;
 }
 
 .add-to-cart-button div {
